@@ -23,7 +23,7 @@ const Container = () => {
                 <div className="col-md-6">
                     <TargetCurrency setTargetCurency={setTargetCurency}/>
                 </div>
-                <div className="col-md-6 mx-auto mb-4">
+                <div className="col-md-6 mx-auto mb-4 mb-lg-0">
                     <Amount baseCurrency={baseCurrency} targetCurrency={targetCurrency}/>
              </div>
             </div>

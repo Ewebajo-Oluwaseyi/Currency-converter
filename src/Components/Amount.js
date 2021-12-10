@@ -62,7 +62,7 @@ const Amount = ({baseCurrency, targetCurrency}) => {
     };
 
     return (
-        <div className="card m-2">
+        <div className="card m-2 shadow-lg rounded">
             <div className="card-header">
                 <h3 className="text-center text-white">Amount & Results</h3>
             </div>
